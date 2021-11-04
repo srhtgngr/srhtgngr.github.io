@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr-fr">
 
 <head>
     <title>Cv Serhat Gungor</title>
@@ -10,22 +10,60 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <style>
+        .nav-tabs .nav-item.show .nav-link,
+        .nav-tabs .nav-link.active {
+            background-color: #d6e7fa;
+        }
+    </style>
 </head>
 
-<body>
-    <div class="container mb-4 pb-4">
+<body style="background-color: rgb(235, 235, 235);">
+    <header role="banner" class="container">
+
+        <!--Job title-->
         <h1 class="text-center p-4">Concepteur Developpeur d'application</h1>
-        <div class="row  border shadow-lg rounded">
-            <div class="col-sm-4 pt-4" style="background-color: #d6e7fa;">
-                <div class="container">
-                    <img src="profil_serhat_round.png" alt="" class="img-fluid">
-                    <span class="text-muted">Né en 1984</span>
-                    <h2>Serhat Gungor</h2>
-                    <p>Après avoir validé mon titre pro Développeur web en Octobre 2020, J'ai commencé une nouvelle
-                        formation pour devenir concepteur développeur d'applications.</p>
+        <!--end job title-->
+
+        <!--navbar-->
+
+        <nav class="nav nav-tabs navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active border-bottom" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">About me</button>
+                        <button class="nav-link border-bottom" id="nav-profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">Formations</button>
+                        <button class="nav-link border-bottom" id="nav-contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                            aria-selected="false">Expérience
+                            Professionnelle</button>
+                    </div>
                 </div>
+            </div>
+        </nav>
+        <!--end navbar-->
+
+    </header>
+    <main role="main" class="container mb-4 pb-4">
+        <section class="row  border shadow-lg rounded">
+
+            <!--Contact Informations-->
+            <article class="col-sm-4 pt-4" style="background-color: #d6e7fa;">
+                <article class="container">
+                    <img src="img/profil_serhat_round.png" alt="image-profil" class="img-fluid">
+                    <p class="text-muted">Né en 1984</p>
+                </article>
                 <hr>
-                <div class="container">
+                <article class="container">
                     <h2>Informations</h2>
                     <p><a href="tel:+33631958304"><i class="fas fa-phone"></i> 0631958304</a></p>
                     <p>57150 Creutzwald</p>
@@ -42,142 +80,210 @@
                             rel="noopener noreferrer">serhatgungor.netlify.app</a>
                     </p>
                     <p>Permis A, B + véhicule</p>
-                </div>
-                <hr>
-                <div class="container">
-                    <h2>Langues</h2>
-                    <p>Turc et Kurde Bilingue</p>
-                    <p>Anglais B1</p>
-                    <p>Allemand A2</p>
-                </div>
-                <hr>
-                <div class="container">
-                    <h2>Loisirs</h2>
-                    <p>Basket-Ball</p>
-                    <p>Jeux vidéos</p>
-                </div>
+                </article>
+            </article>
+            <!--end Contact Informations-->
+            <section class="col pt-4" style="background-color: #eaf0f7;">
+                <section class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 
-            </div>
-            <div class="col pt-4" style="background-color: #eaf0f7;">
-                <div class="container">
-                    <h2>Formations</h2>
-                    <hr>
-                    <div class="container pt-2">
-                        <h5>Formation Développeur Web et Web Mobile</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">Mars 2020 - Octobre 2020</li>
-                                <li><em>Titre Professionnel niveau 5 Développeur Web et Web Mobile</em></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="container pt-2">
-                        <h5>Formation CQP-APS et SSIAP 1</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">Janvier 2019 – Février 2019</li>
-                                <li><em>Formation agent de sécurité incendie à
-                                        l’IESC à Hagondange</em></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="container pt-2">
-                        <h5>Intervenant sur site Nucléaire CQPM 0263</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">2016</li>
-                                <li><em>AFOREST - Metz</em></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="container pt-2">
-                        <h5>CQPM Soudeur Industriel</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">2014</li>
-                                <li><em>IPS - Forbach</em></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="container pt-2">
-                        <h5>Formation Maintenance Informatique et Infographie</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">2004</li>
-                                <li><em>Efic Partenaires Industrie - Illange</em></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="container pt-2">
-                        <h5>Baccalauréat Comptabilité</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">2003</li>
-                                <li><em>LYCÉE FELIX MAYER - Creutzwald</em></li>
-                            </ul>
-                        </div>
+                        <!--Personal Informations-->
+                        <section class="col pt-4" style="background-color: #eaf0f7;">
+                            <article class="container">
+                                <h2 class="text-end">Serhat Gungor</h2>
+                                <br>
+                                <p>Titre Professionnel Développeur web validé en Octobre 2020, je me suis lancé dans une
+                                    nouvelle
+                                    aventure de 2 ans pour devenir Concepteur Développeur d'Applications.</p>
+                            </article>
+                            <hr>
+                            <article class="container">
+                                <h2>Langues</h2>
+                                <p>Turc et Kurde Bilingue</p>
+                                <p>Anglais B1</p>
+                                <p>Allemand A2</p>
+                            </article>
+                            <hr>
+                            <article class="container">
+                                <h2>Loisirs</h2>
+                                <p>Basket-Ball</p>
+                                <p>Jeux vidéos</p>
+                            </article>
+                            <hr>
+                            <article class="container">
+                                <h2 class="pb-2">Mes Créations</h2>
+                                <section class="row">
+                                    <article class="col-md-5 pb-2">
+                                        <a href="https://karlidag.at/" target="_blank">
+                                            <img src="img/Karlidag-pool-blue.jpeg" alt="" class="img-fluid rounded"
+                                                style="height: 120px;">
+                                        </a>
+                                    </article>
+                                    <article class="col pb-2">
+                                        <a href="https://salon-snow-white.at/" target="_blank">
+                                            <img src="img/SnowWhite.png" alt="" class="img-fluid rounded"
+                                                style="height: 120px;">
+                                        </a>
+                                    </article>
+                                    <article class="col-lg-2 pb-2">
+                                        <a href="https://serhatgungor.netlify.app/" target="_blank">
+                                            <img src="img/avatar.png" alt="" class="img-fluid rounded"
+                                                style="height: 120px;">
+                                        </a>
+                                    </article>
+                                </section>
+                            </article>
+                        </section>
+                        <!--end Personal Informations-->
                     </div>
 
-                </div>
-                <div class="container">
-                    <h2>Experience Professionnelle</h2>
-                    <hr>
-                    <div class="container pt-2">
-                        <h5>Stage Développeur web</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">Juin 2020 – Juillet 2020</li>
-                                <li><em>GUST HTML- Luxembourg</em></li>
-                            </ul>
-                        </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <section class="col pt-4" style="background-color: #eaf0f7;">
+                            <section class="container">
+                                <h2>Formations</h2>
+                                <hr>
+                                <article class="container pt-2">
+                                    <h5>Formation Développeur Web et Web Mobile</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">Mars 2020 - Octobre 2020</li>
+                                            <li><em>Titre Professionnel niveau 5 Développeur Web et Web Mobile</em></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                                <article class="container pt-2">
+                                    <h5>Formation CQP-APS et SSIAP 1</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">Janvier 2019 – Février 2019</li>
+                                            <li><em>Formation agent de sécurité incendie à
+                                                    l’IESC à Hagondange</em></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                                <article class="container pt-2">
+                                    <h5>Intervenant sur site Nucléaire CQPM 0263</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">2016</li>
+                                            <li><em>AFOREST - Metz</em></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                                <article class="container pt-2">
+                                    <h5>CQPM Soudeur Industriel</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">2014</li>
+                                            <li><em>IPS - Forbach</em></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                                <article class="container pt-2">
+                                    <h5>Formation Maintenance Informatique et Infographie</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">2004</li>
+                                            <li><em>Efic Partenaires Industrie - Illange</em></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                                <article class="container pt-2">
+                                    <h5>Baccalauréat Comptabilité</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">2003</li>
+                                            <li><em>LYCÉE FELIX MAYER - Creutzwald</em></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </section>
+                        </section>
                     </div>
-                    <div class="container pt-2">
-                        <h5>Mécanicien de maintenance industrielle</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">Avril 2017 – Août 2019</li>
-                                <li>
-                                    <em>KSB Services Cotumer à Creutzwald
-                                        Maintenance mécanique et soudure de broyeurs à charbon de la centrale thermique
-                                        EDF de Cordemais Diverses missions intérimaires de mécanique préventive et
-                                        curative en France et au Luxembourg
-                                    </em>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <section class="col pt-4" style="background-color: #eaf0f7;">
+                            <section class="container">
+                                <h2>Experience Professionnelle</h2>
+                                <hr>
+                                <article class="container pt-2">
+                                    <h5>Stage Développeur web</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">Juin 2020 – Juillet 2020</li>
+                                            <li><em>GUST HTML- Luxembourg</em></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                                <article class="container pt-2">
+                                    <h5>Mécanicien de maintenance industrielle</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">Avril 2017 – Août 2019</li>
+                                            <li>
+                                                <em>KSB Services Cotumer à Creutzwald
+                                                    Maintenance mécanique et soudure de broyeurs à charbon de la
+                                                    centrale thermique
+                                                    EDF de Cordemais Diverses missions intérimaires de mécanique
+                                                    préventive et
+                                                    curative en France et au Luxembourg
+                                                </em>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </article>
+                                <article class="container pt-2">
+                                    <h5>Soudeur Industriel</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">2008 - 2017</li>
+                                            <li><em>Soudure TIG/ MAG / SAEE sur acier toutes épaisseurs, toutes
+                                                    positions, Ressuage,
+                                                    arc-air, soudure US et Radio. Diverses missions CDD et Intérim en
+                                                    grand
+                                                    déplacement.</em></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                                <article class="container pt-2">
+                                    <h5>Employé du Bâtiment</h5>
+                                    <div class="container">
+                                        <ul class="list-unstyled">
+                                            <li class="text-muted">2004 - 2007</li>
+                                            <li><em>Gungor Crépissage
+                                                    Travaux d’embellissement de façades</em></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </section>
+                        </section>
                     </div>
-                    <div class="container pt-2">
-                        <h5>Soudeur Industriel</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">2008 - 2017</li>
-                                <li><em>Soudure TIG/ MAG / SAEE sur acier toutes épaisseurs, toutes positions, Ressuage,
-                                    arc-air, soudure US et Radio. Diverses missions CDD et Intérim en grand
-                                    déplacement.</em></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="container pt-2">
-                        <h5>Employé du Bâtiment</h5>
-                        <div class="container">
-                            <ul class="list-unstyled">
-                                <li class="text-muted">2004 - 2007</li>
-                                <li><em>Gungor Crépissage
-                                    Travaux d’embellissement de façades</em></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer role="contentinfo" class="container mb-4 ">
+        <div class="row justify-content-end">
+            <div class="col-auto ">
+                <p>
+                    2021
+                    <i class="far fa-copyright"></i>
+                    - Serhat Gungor
+                </p>
             </div>
         </div>
+    </footer>
+    <!--end Footer-->
 
-    </div>
+    <!--script-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
+    <!--end script-->
 </body>
 
 </html>
