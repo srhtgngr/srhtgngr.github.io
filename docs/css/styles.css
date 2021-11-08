@@ -20,32 +20,6 @@ article.col-sm-4.pt-4 {
     background-color: #d6e7fa;
 }
 
-img.img-fluid.rounded {
+img#img-sites {
     height: 120px;
-}
-
-@media print {
-    @page{
-        size: a4;
-        size-adjust: 100%;
-    }
-    .tab-content>.tab-pane {
-        display: block !important;
-        opacity: 1 !important;
-        visibility: visible !important;
-        page-break-inside: avoid;
-    }
-    .nav, footer {
-        display: none !important;
-    }
-    body {
-        background-color: transparent !important;
-    }
-    img#img-profil{
-        height: 30%;
-        width: 30%;
-    }
-    .container {
-        width:100% !important;
-    }
 }

@@ -1,0 +1,28 @@
+
+@media print {
+    .tab-content>.tab-pane {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        page-break-inside: avoid;
+    }
+    body {
+        background-color: transparent !important;
+        font-size: x-large;
+    }
+    .nav, footer {
+        display: none !important;
+    }
+
+    img#img-profil{
+        height: 300px;
+        width: 300px;
+    }
+    img#img-sites{
+        height: 150px;
+    }
+
+    main.container.mb-4.pb-4{
+        min-width: 100% !important;
+    }
+}
